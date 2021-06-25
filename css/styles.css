@@ -1,0 +1,49 @@
+/* VARIABLES */
+
+/* GLOBAL */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+}
+
+/* COMMON */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* COMPONENT */
+
+/* HEADER */
+
+/* HERO */
+
+/* ABOUT */
+
+/* PRICE */
+
+/* ADVANTAGES */
+
+/* TEAM */
+
+/* GALLERY */
+
+/* FEEDBACK */
+
+/* CONTACTS */
+
+/* FOOTER */
