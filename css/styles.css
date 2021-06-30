@@ -1,9 +1,27 @@
 /* VARIABLES */
 
+:root {
+  --main-color-light: #ffffff;
+  --main-color-dark: #303030;
+  --accent-color: #ff6c00;
+
+  --color-text-light: #9da4bd;
+  --color-text-dark: #555555;
+  --color-text-transparent: rgba(157, 164, 189, 0.6);
+
+  --background-color-light: #f7f7f7;
+  --background-color-dark: #191c26;
+}
+
 /* GLOBAL */
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+  color: var(--main-color-dark);
 }
 
 h1,
@@ -42,31 +60,29 @@ p {
 }
 
 .modal-button-light {
-  color: #ffffff;
+  color: var(--main-color-light);
 }
 
 .modal-button-dark {
-  color: #303030;
+  color: var(--main-color-dark);
 }
 
 .section-subtitle {
   font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .section-subtitle-light {
-  color: rgba(157, 164, 189, 0.6);
+  color: var(--color-text-transparent);
 }
 
 .section-subtitle-white {
-  color: #ffffff;
+  color: var(--main-color-light);
 }
 
 .section-subtitle-dark {
-  color: #303030;
+  color: var(--main-color-dark);
 }
 
 .section-title {
@@ -78,32 +94,30 @@ p {
 }
 
 .section-title-dark {
-  color: #303030;
+  color: var(--main-color-dark);
 }
 
 .section-title-light {
-  color: #ffffff;
+  color: var(--main-color-light);
 }
 
 .section-text {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
-  letter-spacing: 0.02em;
 }
 
 .section-text-dark {
-  color: #555555;
+  color: var(--color-text-dark);
 }
 
 .section-text-light {
-  color: #9da4bd;
+  color: var(--color-text-light);
 }
 
 /* HEADER */
 
 .header {
-  background-color: #757575;
+  background-color: var(--background-color-dark);
 }
 
 .menu-list-link {
@@ -111,15 +125,13 @@ p {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-  color: #ffffff;
+  color: var(--main-color-light);
 }
 
 .social-list-link {
   font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
   letter-spacing: 0.2em;
-  color: #303030;
+  color: inherit;
 }
 
 .contact-link-tel {
@@ -127,7 +139,7 @@ p {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-  color: #ffffff;
+  color: var(--main-color-light);
 }
 
 .menu-list-link:hover,
@@ -136,13 +148,13 @@ p {
 .menu-list-link:focus,
 .social-list-link:focus,
 .contact-link-tel:focus {
-  color: #ff6c00;
+  color: var(--accent-color);
 }
 
 /* HERO */
 
 .hero-section {
-  background-color: #757575;
+  background-color: var(--background-color-dark);
 }
 
 .hero-section-title {
@@ -151,31 +163,27 @@ p {
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: var(--main-color-light);
 }
 
 /* ABOUT */
 
 .about-section-text-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
-  letter-spacing: 0.02em;
-  color: #555555;
+  color: var(--color-text-dark);
 }
 
 /* PRICE */
 
 .price-section {
-  background-color: #757575;
+  background-color: var(--background-color-dark);
 }
 
 .price-section-list-item-text {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: #9da4bd;
+  color: var(--color-text-light);
 }
 
 /* ADVANTAGES */
@@ -183,22 +191,17 @@ p {
 .advantages-section-list-number {
   font-weight: 700;
   font-size: 42px;
-  line-height: 1.36;
   letter-spacing: 0.05em;
-  color: #303030;
 }
 
 .advantages-section-list-text {
   font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  color: #303030;
 }
 
 /* TEAM */
 
 .team-section {
-  background-color: #f7f7f7;
+  background-color: var(--background-color-light);
 }
 
 .team-section-text-container {
@@ -206,19 +209,13 @@ p {
 }
 
 .team-section-list-title {
-  font-weight: normal;
   font-size: 18px;
   line-height: 1.39;
-  letter-spacing: 0.02em;
-  color: #303030;
 }
 
 .team-section-list-text {
-  font-weight: normal;
   font-size: 14px;
-  line-height: 1.36;
-  letter-spacing: 0.02em;
-  color: #ff6c00;
+  color: var(--accent-color);
 }
 
 /* GALLERY */
@@ -226,35 +223,31 @@ p {
 /* FEEDBACK */
 
 .feedback-section {
-  background-color: #191c26;
+  background-color: var(--background-color-dark);
 }
 
 /* CONTACTS */
 
 .contacts-section {
-  background-color: #191c26;
+  background-color: var(--background-color-dark);
 }
 
 .adress-list-link {
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: #9da4bd;
+  color: var(--color-text-light);
 }
 
 .adress-list-link:hover,
 .adress-list-link:focus {
-  color: #ff6c00;
+  color: var(--accent-color);
 }
 
 /* FOOTER */
 
 .footer-copyright {
   font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
   letter-spacing: 0.2em;
-  color: #9da4bd;
+  color: var(--color-text-light);
 }
