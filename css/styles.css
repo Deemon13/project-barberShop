@@ -61,6 +61,10 @@ p {
   color: rgba(157, 164, 189, 0.6);
 }
 
+.section-subtitle-white {
+  color: #ffffff;
+}
+
 .section-subtitle-dark {
   color: #303030;
 }
@@ -79,6 +83,21 @@ p {
 
 .section-title-light {
   color: #ffffff;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
+.section-text-dark {
+  color: #555555;
+}
+
+.section-text-light {
+  color: #9da4bd;
 }
 
 /* HEADER */
@@ -135,23 +154,7 @@ p {
   color: #ffffff;
 }
 
-.hero-section-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: #9da4bd;
-}
-
 /* ABOUT */
-
-.about-section-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: #555555;
-}
 
 .about-section-text-description {
   font-weight: 400;
@@ -163,11 +166,11 @@ p {
 
 /* PRICE */
 
-.section-price {
+.price-section {
   background-color: #757575;
 }
 
-.section-price-list-item-text {
+.price-section-list-item-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
@@ -177,12 +180,81 @@ p {
 
 /* ADVANTAGES */
 
+.advantages-section-list-number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.advantages-section-list-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: #303030;
+}
+
 /* TEAM */
+
+.team-section {
+  background-color: #f7f7f7;
+}
+
+.team-section-text-container {
+  text-align: center;
+}
+
+.team-section-list-title {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.team-section-list-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
 
 /* GALLERY */
 
 /* FEEDBACK */
 
+.feedback-section {
+  background-color: #191c26;
+}
+
 /* CONTACTS */
 
+.contacts-section {
+  background-color: #191c26;
+}
+
+.adress-list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.adress-list-link:hover,
+.adress-list-link:focus {
+  color: #ff6c00;
+}
+
 /* FOOTER */
+
+.footer-copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}
