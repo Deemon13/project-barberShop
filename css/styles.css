@@ -59,12 +59,22 @@ p {
   background-color: transparent;
 }
 
+.modal-button:hover,
+.modal-button:focus {
+  background-color: var(--accent-color);
+}
+
 .modal-button-light {
   color: var(--main-color-light);
 }
 
 .modal-button-dark {
   color: var(--main-color-dark);
+}
+
+.modal-button-dark:hover,
+.modal-button-dark:focus {
+  color: var(--main-color-light);
 }
 
 .section-subtitle {
