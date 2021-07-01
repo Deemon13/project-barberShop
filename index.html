@@ -24,41 +24,49 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <nav class="menu">
-        <a class="logo link" href="#">
-          <img class="logo-img" src="./images/Logo.svg" alt="logotype" width="68" height="56" />
-        </a>
-        <ul class="menu-list list">
-          <li class="menu-list-item"><a class="menu-list-link link" href="#">О нас</a></li>
-          <li class="menu-list-item"><a class="menu-list-link link" href="#">Услуги и цены</a></li>
-          <li class="menu-list-item"><a class="menu-list-link link" href="#">Мастера</a></li>
-          <li class="menu-list-item">
-            <a class="menu-list-link link" href="#contacts">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="contact-link-tel link" href="tel:+380441111111">+38 044 111 11 11</a>
-      <button class="modal-button modal-button-light" type="button">онлайн-запись</button>
-      <ul class="social-list list">
-        <li class="social-list-item">
-          <a class="social-list-link link" href="#" lang="en">Instagram</a>
-        </li>
-        <li class="social-list-item">
-          <a class="social-list-link link" href="#" lang="en">Youtube</a>
-        </li>
-      </ul>
+      <div class="header-container container">
+        <nav class="menu">
+          <a class="logo link" href="#">
+            <img class="logo-img" src="./images/Logo.svg" alt="logotype" width="68" height="56" />
+          </a>
+          <ul class="menu-list list">
+            <li class="menu-list-item"><a class="menu-list-link link" href="#">О нас</a></li>
+            <li class="menu-list-item">
+              <a class="menu-list-link link" href="#">Услуги и цены</a>
+            </li>
+            <li class="menu-list-item"><a class="menu-list-link link" href="#">Мастера</a></li>
+            <li class="menu-list-item">
+              <a class="menu-list-link link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="contact-link-tel link" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="modal-button modal-button-light" type="button">онлайн-запись</button>
+      </div>
     </header>
 
     <main>
       <!-- HERO -->
       <section class="hero-section section">
-        <p class="section-subtitle section-subtitle-light" lang="en">
-          A hair salon for men in Kyiv
-        </p>
-        <h1 class="hero-section-title" lang="en">BarberShop</h1>
-        <p class="section-text section-text-light">
-          Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
-        </p>
+        <div class="hero-container container">
+          <ul class="left-hero-content social-list list">
+            <li class="social-list-item">
+              <a class="social-list-link link" href="#" lang="en">Instagram</a>
+            </li>
+            <li class="social-list-item">
+              <a class="social-list-link link" href="#" lang="en">Youtube</a>
+            </li>
+          </ul>
+          <div class="right-hero-content-container">
+            <p class="section-subtitle section-subtitle-light" lang="en">
+              A hair salon for men in Kyiv
+            </p>
+            <h1 class="hero-section-title" lang="en">BarberShop</h1>
+            <p class="section-text section-text-light">
+              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
+            </p>
+          </div>
+        </div>
       </section>
 
       <!-- ABOUT -->
