@@ -63,6 +63,7 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  box-sizing: border-box;
 }
 
 /* COMPONENT */
@@ -145,6 +146,14 @@ img {
 
 .section-text-light {
   color: var(--color-text-light);
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 4пше0px;
 }
 
 /* HEADER */
@@ -385,6 +394,27 @@ img {
   background-color: var(--background-color-light);
 }
 
+.team-section-title {
+  margin-bottom: 44px;
+}
+
+.team-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.team-section-list-item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.team-section-list-img {
+  margin-bottom: 30px;
+}
+
 .team-section-text-container {
   text-align: center;
 }
@@ -392,6 +422,7 @@ img {
 .team-section-list-title {
   font-size: 18px;
   line-height: 1.39;
+  margin-bottom: 8px;
 }
 
 .team-section-list-text {
@@ -401,16 +432,61 @@ img {
 
 /* GALLERY */
 
+.gallery-section-subtitle {
+  margin-bottom: 44px;
+}
+
+.gallery-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.gallery-section-list-item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 120px) / 4);
+}
+
+.feedback-contacts-section-wrapper {
+  background-color: var(--background-color-dark);
+}
+
+.feedback-contacts-section-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.feedback-section,
+.contacts-section {
+  flex-basis: 50%;
+}
+
 /* FEEDBACK */
 
 .feedback-section {
-  background-color: var(--background-color-dark);
+  margin-right: 70px;
+  padding-right: 15px;
 }
 
 /* CONTACTS */
 
 .contacts-section {
-  background-color: var(--background-color-dark);
+  padding-left: 15px;
+}
+
+.contacts-section-title {
+  margin-bottom: 40px;
+}
+
+.contacts-section-adress {
+  max-width: 270px;
+  margin-bottom: 70px;
+}
+
+.adress-list-item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .adress-list-link {
@@ -425,7 +501,17 @@ img {
   color: var(--accent-color);
 }
 
+.contacts-section-subtitle {
+  margin-bottom: 22px;
+}
+
 /* FOOTER */
+
+.footer-container {
+  padding: 56px 0;
+  display: flex;
+  justify-content: space-between;
+}
 
 .footer-copyright {
   font-weight: 600;
